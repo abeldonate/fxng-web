@@ -14,7 +14,7 @@ app = Flask(
 
 @app.route('/')
 def page_index():
-    return render_template('index.html')
+    return render_template('home.html')
 
 @app.route('/activities')
 def activities():

@@ -64,12 +64,15 @@
   </section>
 
 
-  <!-- Dashboard-->
+
+
+  <!-- The Maze-->
   <section class="section">
     <div class="container">
       <div class="columns is-centered">
         <div class="column is-half">
           <div class="box has-background-info-light">
+
             <h2 class="title is-4 has-text-info-dark">
               <span class="icon-text">
                 <span class="icon">
@@ -78,61 +81,161 @@
                 <span>The Maze</span>
               </span>
             </h2>
+
+
             <div class="columns is-mobile is-multiline">
-              <div class="column is-one-fourth-desktop is-half-mobile">
-                <div class="box has-background-primary-light">
-                  <div class="has-text-centered">
-                    <span class="icon is-large has-text-primary">
-                      <i class="fas fa-gamepad fa-2x"></i>
-                    </span>
-                    <p class="subtitle is-6 mt-2">Games Played</p>
-                    <p class="title is-4 has-text-primary">12</p>
-                  </div>
-                </div>
-              </div>
 
-              <div class="column is-one-fourth-desktop is-half-mobile">
+              <!-- Maze locked-->
+              <div class="column is-5-desktop is-half-mobile">
                 <div class="box has-background-success-light">
+                  <figure class="image is-fullwidth">
+                    <img src="{{ url_for('static', filename='blured_maze2.jpeg') }}" alt="Play Today">
+                  </figure>
+                </div>
+              </div>
+
+              <!-- Badge of today-->
+              <div class="column is-3-desktop is-half-mobile">
+                <div class="box has-background-info-light">
                   <div class="has-text-centered">
-                    <span class="icon is-large has-text-success">
-                      <i class="fas fa-road fa-2x"></i>
-                    </span>
-                    <p class="subtitle is-6 mt-2">Total Distance</p>
-                    <p class="title is-4 has-text-success">8km</p>
+                    <figure class="image">
+                      <img class="is-rounded is-fullwidth" src="{{ url_for('static', filename='badge1.png') }}"
+                        alt="Badge">
+                      <p class="subtitle is-6 mt-2">Today's Challenge:</p>
+                      <p class="subtitle is-6 has-text-weight-bold"> The labyrinth of the wild</p>
                   </div>
                 </div>
               </div>
 
-              <div class="column is-one-fourth-desktop is-half-mobile">
+              <div class="column is-4-desktop is-half-mobile">
                 <div class="box has-background-warning-light">
                   <div class="has-text-centered">
-                    <span class="icon is-large has-text-warning">
-                      <i class="fas fa-clock fa-2x"></i>
-                    </span>
-                    <p class="subtitle is-6 mt-2">Time Played</p>
-                    <p class="title is-4 has-text-warning">3h 45m</p>
+                    <figure class="image">
+                      <img src="{{ url_for('static', filename='june_modified.png') }}" alt="Calendar" class="is-fullwidth">
+                    </figure>
+                    <p class="subtitle is-6 mt-2">Your Progress</p>
                   </div>
                 </div>
+
+
+
               </div>
 
-              <div class="column is-one-fourth-desktop is-half-mobile">
-                <div class="box has-background-link-light">
-                  <div class="has-text-centered">
-                    <span class="icon is-large has-text-link">
-                      <i class="fas fa-users fa-2x"></i>
-                    </span>
-                    <p class="subtitle is-6 mt-2">Friends Completed Today</p>
-                    <p class="title is-4 has-text-link">5</p>
-                  </div>
-                </div>
-              </div>
+
             </div>
+          </div>
+        </div>
+  </section>
 
 
+
+  <!-- The Games-->
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <div class="box has-background-info-light">
+
+            <h2 class="title is-4 has-text-info-dark">
+              <span class="icon-text">
+                <span class="icon">
+                  <i class="fas fa-gamepad"></i>
+                </span>
+                <span>The Games</span>
+              </span>
+            </h2>
+
+
+            <div class="columns is-mobile is-multiline">
+
+              <div class="column is-4-desktop is-half-mobile">
+                <div class="box has-background-white has-text-centered">
+                  <figure class="image is-fullwidth">
+                    <p class="subtitle is-6 has-text-weight-bold">Connections</p>
+                    <img src="{{ url_for('static', filename='connections.jpeg') }}" alt="Play Today">
+                  </figure>
+                </div>
+              </div>
+
+
+              <div class="column is-4-desktop is-half-mobile">
+                <div class="box has-background-white has-text-centered">
+                  <figure class="image is-fullwidth">
+                    <p class="subtitle is-6 has-text-weight-bold">Draw the Hanzi</p>
+                    <img src="{{ url_for('static', filename='draw.png') }}" alt="Play Today">
+                  </figure>
+                </div>
+              </div>
+
+
+              <div class="column is-4-desktop is-half-mobile">
+                <div class="box has-background-white has-text-centered">
+                  <figure class="image is-fullwidth">
+                    <p class="subtitle is-6 has-text-weight-bold">Perfect Square</p>
+                    <img src="{{ url_for('static', filename='perfect_square.png') }}" alt="Play Today">
+                  </figure>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <!-- Now a section for food delivery-->
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <div class="box has-background-info-light">
+
+            <h2 class="title is-4 has-text-info-dark">
+              <span class="icon-text">
+                <span class="icon">
+                  <i class="fas fa-utensils"></i>
+                </span>
+                <span>Food Delivery</span>
+              </span>
+            </h2>
+
+            <div class="columns is-mobile is-multiline">
+
+              <div class="column is-4-desktop is-half-mobile">
+                <div class="box has-background-white has-text-centered">
+                  <figure class="image is-fullwidth">
+                    <p class="subtitle is-6 has-text-weight-bold">Order Now</p>
+                    <img src="{{ url_for('static', filename='food_delivery.png') }}" alt="Order Now">
+                  </figure>
+                </div>
+              </div>
+
+              <div class="column is-4-desktop is-half-mobile">
+                <div class="box has-background-white has-text-centered">
+                  <figure class="image is-fullwidth">
+                    <p class="subtitle is-6 has-text-weight-bold">Your Orders</p>
+                    <img src="{{ url_for('static', filename='your_orders.png') }}" alt="Your Orders">
+                  </figure>
+                </div>
+              </div>
+
+              <div class="column is-4-desktop is-half-mobile">
+                <div class="box has-background-white has-text-centered">
+                  <figure class="image is-fullwidth">
+                    <p class="subtitle is-6 has-text-weight-bold">Delivery Status</p>
+                    <img src="{{ url_for('static', filename='delivery_status.png') }}" alt="Delivery Status">
+                  </figure>
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
       </div>
   </section>
+
+
 
 
 
@@ -152,7 +255,7 @@
               </a>
             </div>
             <div class="column is-3">
-              <a class="button is-secondary is-fullwidth" href="/">
+              <a class="button is-secondary is-fullwidth" href="/activities">
                 <span class="icon">
                   <i class="fas fa-bell"></i> Activities
                 </span>
