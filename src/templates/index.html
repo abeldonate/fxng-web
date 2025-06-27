@@ -1,0 +1,411 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/bulmaswatch/default/bulmaswatch.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <!--Header-->
+  <section class="hero is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-half">
+
+
+            <div class="columns">
+              <div class="column is-two-fifths">
+                <div class="container">
+                  <h1 class="title">
+                    Funxing Island
+                  </h1>
+                  <h2 class="subtitle">
+                    A ludic journey
+                  </h2>
+                </div>
+              </div>
+              <div class="column"></div>
+
+
+              <div class="column is-one-third">
+                <div class="columns is-mobile is-multiline is-centered">
+                  <div class="column is-4">
+                    <a class="button is-secondary is-fullwidth" href="/">
+                      <span class="icon">
+                        <i class="fas fa-comments"></i>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="column is-4">
+                    <a class="button is-secondary is-fullwidth" href="/">
+                      <span class="icon">
+                        <i class="fas fa-bell"></i>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="column is-4">
+                    <a class="button is-secondary is-fullwidth" href="/">
+                      <span class="icon">
+                        <i class="fas fa-user-circle" aria-hidden="true"></i>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Dashboard-->
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <div class="box has-background-info-light">
+            <h2 class="title is-4 has-text-info-dark">
+              <span class="icon-text">
+                <span class="icon">
+                  <i class="fas fa-tachometer-alt"></i>
+                </span>
+                <span>Dashboard</span>
+              </span>
+            </h2>
+            <div class="subtitle is-6 has-text-grey-dark mb-4">Last Activities</div>
+
+            <div class="columns is-mobile is-multiline">
+              <div class="column is-one-fourth-desktop is-half-mobile">
+                <div class="box has-background-primary-light">
+                  <div class="has-text-centered">
+                    <span class="icon is-large has-text-primary">
+                      <i class="fas fa-gamepad fa-2x"></i>
+                    </span>
+                    <p class="subtitle is-6 mt-2">Games Played</p>
+                    <p class="title is-4 has-text-primary">12</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column is-one-fourth-desktop is-half-mobile">
+                <div class="box has-background-success-light">
+                  <div class="has-text-centered">
+                    <span class="icon is-large has-text-success">
+                      <i class="fas fa-road fa-2x"></i>
+                    </span>
+                    <p class="subtitle is-6 mt-2">Total Distance</p>
+                    <p class="title is-4 has-text-success">8km</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column is-one-fourth-desktop is-half-mobile">
+                <div class="box has-background-warning-light">
+                  <div class="has-text-centered">
+                    <span class="icon is-large has-text-warning">
+                      <i class="fas fa-clock fa-2x"></i>
+                    </span>
+                    <p class="subtitle is-6 mt-2">Time Played</p>
+                    <p class="title is-4 has-text-warning">3h 45m</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column is-one-fourth-desktop is-half-mobile">
+                <div class="box has-background-link-light">
+                  <div class="has-text-centered">
+                    <span class="icon is-large has-text-link">
+                      <i class="fas fa-users fa-2x"></i>
+                    </span>
+                    <p class="subtitle is-6 mt-2">Friends Completed Today</p>
+                    <p class="title is-4 has-text-link">5</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <!--Last days-->
+            <div class="columns is-mobile">
+
+              <div class="column is-one-fifths">
+                <div class="box has-background-white has-text-centered">
+                  <p class="subtitle is-6 has-text-weight-bold">Jun 5</p>
+                  <!-- two columns here-->
+                  <div class="columns is-mobile">
+                    <div class="column is-half">
+                      <figure class="image mx-auto mb-3">
+                        <img class="is-rounded is-fullwidth" src="{{ url_for('static', filename='badge1.png') }}" alt="Monday Badge">
+                      </figure>
+                    </div>
+                    <div class="column is-half">
+                      <p class="tag is-primary is-medium">12</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column is-one-fifths">
+                <div class="box has-background-white has-text-centered">
+                  <p class="subtitle is-6 has-text-weight-bold">Jun 5</p>
+                  <!-- two columns here-->
+                  <div class="columns is-mobile">
+                    <div class="column is-half">
+                      <figure class="image mx-auto mb-3">
+                        <img class="is-rounded is-fullwidth" src="{{ url_for('static', filename='badge1.png') }}" alt="Monday Badge">
+                      </figure>
+                    </div>
+                    <div class="column is-half">
+                      <p class="tag is-primary is-medium">12</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="column is-one-fifths">
+                <div class="box has-background-white has-text-centered">
+                  <p class="subtitle is-6 has-text-weight-bold">Jun 5</p>
+                  <!-- two columns here-->
+                  <div class="columns is-mobile">
+                    <div class="column is-half">
+                      <figure class="image mx-auto mb-3">
+                        <img class="is-rounded is-fullwidth" src="{{ url_for('static', filename='badge1.png') }}" alt="Monday Badge">
+                      </figure>
+                    </div>
+                    <div class="column is-half">
+                      <p class="tag is-primary is-medium">12</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column is-one-fifths">
+                <div class="box has-background-white has-text-centered">
+                  <p class="subtitle is-6 has-text-weight-bold">Jun 5</p>
+                  <!-- two columns here-->
+                  <div class="columns is-mobile">
+                    <div class="column is-half">
+                      <figure class="image mx-auto mb-3">
+                        <img class="is-rounded is-fullwidth" src="{{ url_for('static', filename='badge1.png') }}" alt="Monday Badge">
+                      </figure>
+                    </div>
+                    <div class="column is-half">
+                      <p class="tag is-primary is-medium">12</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column is-one-fifths">
+                <div class="box has-background-white has-text-centered">
+                  <p class="subtitle is-6 has-text-weight-bold">Jun 5</p>
+                  <!-- two columns here-->
+                  <div class="columns is-mobile">
+                    <div class="column is-half">
+                      <figure class="image mx-auto mb-3">
+                        <img class="is-rounded is-fullwidth" src="{{ url_for('static', filename='badge1.png') }}" alt="Monday Badge">
+                      </figure>
+                    </div>
+                    <div class="column is-half">
+                      <p class="tag is-primary is-medium">12</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+
+  <!-- Now I want a section with posts. Each post should contain a logo, a title and a message-->
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <div class="columns is-multiline">
+            <!-- Post 1 -->
+            <div class="column is-full">
+              <div class="box">
+                <article class="media">
+                  <figure class="media-left">
+                    <i class="fa fa-user-circle" aria-hidden="true"></i>
+                  </figure>
+                  <div class="media-content">
+                    <div class="columns">
+                      <div class="column is-2">
+                        <figure class="image is-fullwidth">
+                          <img src="{{ url_for('static', filename='solved_maze1.png') }}">
+                        </figure>
+                      </div>
+
+                      <div class="column is-1">
+                        <figure class="image is-fullwidth">
+                          <img class="is-rounded" src="{{ url_for('static', filename='badge1.png') }}">
+                        </figure>
+                      </div>
+
+                      <div class="column is-9">
+                        <div class="content">
+                          <p>
+                            <strong>Lot of fun in the maze today!</strong>
+                            <br>
+                            Today I completed the maze challenge, it was amazing! Also, I played some of the games
+                            located
+                            in the plaza.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+
+            <!-- Post 2 -->
+            <div class="column is-full">
+              <div class="box">
+                <article class="media">
+                  <figure class="media-left">
+                    <i class="fa fa-user-circle" aria-hidden="true"></i>
+                  </figure>
+                  <div class="media-content">
+                    <div class="columns">
+                      <div class="column is-2">
+                        <figure class="image is-fullwidth">
+                          <img src="{{ url_for('static', filename='blured_maze2.jpeg') }}">
+                        </figure>
+                      </div>
+
+                      <div class="column is-1">
+                        <figure class="image is-fullwidth">
+                          <img class="is-rounded" src="{{ url_for('static', filename='badge2.png') }}">
+                        </figure>
+                      </div>
+
+                      <div class="column is-9">
+                        <div class="content">
+                          <p>
+                            <strong>Lot of fun in the maze today!</strong>
+                            <br>
+                            Today I completed the maze challenge, it was amazing! Also, I played some of the games
+                            located
+                            in the plaza.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+
+            <!-- Post 3 -->
+            <div class="column is-full">
+              <div class="box">
+                <article class="media">
+                  <figure class="media-left">
+                    <i class="fa fa-user-circle" aria-hidden="true"></i>
+                  </figure>
+                  <div class="media-content">
+                    <div class="columns">
+                      <div class="column is-2">
+                        <figure class="image is-fullwidth">
+                          <img src="{{ url_for('static', filename='blured_maze2.jpeg') }}">
+                        </figure>
+                      </div>
+
+                      <div class="column is-1">
+                        <figure class="image is-fullwidth">
+                          <img class="is-rounded" src="{{ url_for('static', filename='badge3.png') }}">
+                        </figure>
+                      </div>
+
+                      <div class="column is-9">
+                        <div class="content">
+                          <p>
+                            <strong>Lot of fun in the maze today!</strong>
+                            <br>
+                            Today I completed the maze challenge, it was amazing! Also, I played some of the games
+                            located
+                            in the plaza.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <div class="columns is-mobile is-multiline is-centered">
+            <div class="column is-3">
+              <a class="button is-secondary is-fullwidth" href="/">
+                <span class="icon">
+                  <i class="fas fa-home"></i> Home
+                </span>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a class="button is-secondary is-fullwidth" href="/activities">
+                <span class="icon">
+                  <i class="fas fa-chevron-up"></i> Activities
+                </span>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a class="button is-secondary is-fullwidth" href="/public-events">
+                <span class="icon">
+                  <i class="fa fa-users" aria-hidden="true"></i> Public events
+                </span>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a class="button is-secondary is-fullwidth" href="/profile">
+                <span class="icon">
+                  <i class="fas fa-user-circle" aria-hidden="true"></i> Profile
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+</body>
