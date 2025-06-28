@@ -13,12 +13,16 @@ app = Flask(
 
 
 @app.route('/')
-def page_index():
+def home():
     return render_template('home.html')
 
 @app.route('/activities')
 def activities():
     return render_template('activities.html')
+
+@app.route('/maze')
+def maze():
+    return render_template('maze.html')
 
 
 if __name__ == '__main__':

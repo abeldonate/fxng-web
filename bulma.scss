@@ -1,4 +1,16 @@
 @charset "utf-8";
 
 /*! bulma.io v1.0.4 | MIT License | github.com/jgthms/bulma */
-@use "sass";
+
+// Custom primary color - change this to your desired color
+$primary: #00d1b2; // Turquoise (default)
+// $primary: #3273dc; // Blue
+// $primary: #48c774; // Green  
+// $primary: #ff3860; // Red
+// $primary: #ffdd57; // Yellow
+// $primary: #363636; // Dark
+// $primary: #00c4a7; // Custom teal
+
+@use "sass" with (
+  $primary: $primary
+);
